@@ -1,0 +1,857 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.header{
+    height: 95vh;
+    background: url('../IMG/header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+ .header .logo,
+.header .navbar a{
+    color: white;
+    text-decoration: none;
+} 
+
+.header .navbar .logo 
+{
+    float: left;
+    padding-top: 2%;
+    padding-left: 20%;
+}
+
+.header .navbar  .nav-items{
+    float: right;
+    padding-top: 2%;
+    padding-right: 20%;
+    word-spacing: 10px;
+    
+}
+
+.header .navbar .nav-item{
+    display: inline-block;
+
+}
+
+.navbar::after{
+    content: '' ;
+    display: block;
+    clear: both;
+}
+
+
+
+.heading .heading1{
+    color: white;
+    padding-top: 15%;
+    text-align: center;
+    /* letter-spacing: 10px; */
+    font-weight: 700;
+}
+
+.heading .para{
+    color: white;
+    text-align: center;
+    word-spacing: 5px;
+    padding-top: 20px;
+    font-weight: 500;
+} 
+
+.navbar a:link,
+.navbar a:visited{
+    color: white;
+}
+.navbar a{
+    padding-bottom: 0.3rem;
+}
+
+
+
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+
+.heading a{
+    border: 1px solid white;
+    color: red;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: white;
+    border-radius: 2.5rem;
+    display: inline-block;
+    font-weight: 500;
+    text-decoration: none;
+    /* margin-bottom: 2rem; */
+}
+
+.heading .item{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 10rem;
+}
+
+.item1:hover{
+    background-color: #dddddd;
+}
+
+.mr1:hover{
+    background-color: #fcf3f2;
+}
+
+
+
+/* #######################SHOWCASE SECTION STYLING######################### */
+
+.showcase{
+    background: #dddddd;
+    padding: 2rem ;
+    /* margin-top: 2rem; */
+}
+
+.row{
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px #aaaaaa;
+}
+
+.row1{
+    margin-bottom: 2rem;
+}
+
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+
+.row .img-box{
+    height: 100%;
+    }
+
+.row .text-box{
+    padding: 30px;
+    word-spacing: 10px;
+}
+
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.row1 .text-box .pa1{
+    padding-top: 30px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    
+    
+}
+
+.row2 .text-box .pa2{
+    padding-top: 30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    line-height: 1.6;
+
+    
+}
+
+
+
+.row .text-box a{
+    display: inline-block;
+    border: red 2px solid ;
+    border-radius: 25px;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.row .text-box .mr{
+    padding-top: 20px;
+}
+
+.row .text-box .eg{
+    letter-spacing: 10px;
+}
+
+.row::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/* ########## feature section #################### */
+
+
+.feature{
+    padding: 2rem;
+}
+
+.box{
+    height: 200px;
+    padding: 20px;
+    /* margin-bottom: 100px; */
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.26);
+}
+ 
+ .box-1{
+    float: left;
+    width: 33.3333%;
+    background: black;
+    color: white;
+    text-align: center;
+
+}
+
+.box-2{
+    float: left;
+    width: 33.3333%;
+    background: rgba(255, 0, 0, 0.89);
+    color: white;
+    text-align: center;
+}
+
+.box-3{
+    float: right;
+    width: 33.333%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+ 
+.md-heading{
+    padding-top: 4px;
+    padding-bottom: 10px;
+} 
+
+.text-red{
+    color: red;
+}
+
+.feature p{
+    line-height: 1.6;
+}
+
+.box-wrapper::after{
+    content:" " ;
+    display: block;
+    clear: both;
+}
+
+
+/* ############## footer section ################### */
+
+ .footer{
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 2rem;
+} 
+
+.social-media-links i{
+ margin: 1rem;
+}
+
+
+/* ###################### about styling ################ */
+
+.style{
+    background-color: black;
+    color:white;
+    padding: 3rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.style .navbar .logo{
+    float: left;
+}
+
+.style .navbar .nav-items{
+    float: right;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+}
+
+.style .navbar .nav-item{
+    display: inline-block;
+}
+
+.style .navbar .nav-item a{
+    text-decoration: none;   
+}
+
+
+/* ################################ */
+
+.style2{
+    padding-top: 3rem;
+    padding-left:20% ;
+    padding-right:20% ;
+}
+
+.style2 h2{
+    border-bottom: 0.2rem solid red;
+    letter-spacing: 0.3rem;
+    /* width: 10rem; */
+}
+
+.style2 p{
+    padding-top: 1rem;
+    
+    letter-spacing: 0.1rem;
+}
+.style2::after{
+    content: ;
+    display: block;
+    clear: both;
+}
+
+/* ################ about wrapper ############### */
+
+.about-wrapper{
+    text-align: center;
+    margin-top: 2rem;
+    
+}
+
+.about-wrapper .left{
+    float: left;
+    width: 50%;
+}
+
+.about-wrapper .right{
+    float: right;
+    width: 50%;
+}
+
+ul li{
+    list-style: none;
+    padding-bottom: 0.5rem;
+}
+
+.about-wrapper li::before{
+    content: '\2713';
+    color: red;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.about-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ################counts-style################## */
+
+ 
+.counts .count-item{
+    padding-top: 2rem;
+    font-weight: bold;
+    /* display: inline-block; */
+}
+
+
+.counts span{
+    color: red;
+}
+
+.count-item{
+    width: 25%;
+    float: left; 
+    text-align: center;
+}  
+
+.counts::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* ##################### banner-styling ###################### */
+
+ 
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+} 
+
+
+.cta-banner-left{
+    float: left;
+}
+
+.cta-banner-right{
+    float: right;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.cta-banner-right a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+    
+}  
+
+.cta-banner{
+    background: red;
+    margin-top: 3rem;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.cta-banner p{
+    font-weight: 500;
+}
+
+/* ################ contact page styling ##################### */
+
+.contact-form{
+    padding: 5rem 0rem;
+}
+
+.company-address{
+    background-color: rgba(248, 245, 245, 0.986);
+    width: 49%;
+    float: left;
+    padding: 2rem;
+    height: 600px;
+}
+
+.form{
+    background-color: rgba(248, 245, 245, 0.986);
+    width: 49%;
+    float: right;
+    padding: 2rem;
+    height: 600px;
+}
+
+.form-wrapper::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container1{
+    padding-top: 3rem;
+    padding-left:20% ;
+    padding-right:20% ;
+} 
+
+.company-address img{
+    width: 90%;
+    object-fit: cover;
+    object-position: right;
+
+}
+
+.fas {
+    padding-right: 1rem;
+}
+
+.far{
+    padding-right: 1rem;
+}
+
+.company-address h2 {
+    padding-bottom: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.company-address p{
+    padding-bottom: 1rem;
+}
+
+
+.form h2{
+    font-weight: 500;
+    border-bottom: 3px solid red;
+}
+
+.form p{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form .mes{
+    width: 100%;
+    margin-bottom: .5rem;
+    
+}
+
+
+.form .su1{
+    display: inline-block;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: .3rem;
+    padding-top: .3rem;
+    text-transform: uppercase;
+    /* margin-left: 30%; */
+    outline: none;
+    cursor: pointer;
+    /* margin-bottom: 3rem; */
+}
+
+.form .sub{
+    text-align: center;
+}
+.form .tex{
+    margin-bottom: .5rem;
+}
+
+.form .req{
+    color: red;
+}
+
+.form textarea{
+    width: 100%;
+    height: 200px;
+
+}
+
+
+
+/* #############thankyou styling################### */
+
+.thanks{
+    text-align: center;
+    margin-top: 20rem;
+    color: white;
+    letter-spacing: .3rem;
+    word-spacing: 1rem;
+    /* border-bottom: 2px solid white; */
+
+}
+
+.back{
+    background: red;
+}
+
+
+/* ############### media queries (0-600) #####################3 */
+
+@media (max-width: 600px){
+    html{
+        font-size: 12px;
+    }
+
+    .navbar .nav-items, .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar .logo{
+        padding-right: 25%;
+        margin-bottom: 1.5rem;
+        letter-spacing: .3rem;
+        font-size: 2rem ;
+
+    }
+
+    .header .nav-items{
+        padding-left: 20%;
+    }
+
+    .heading .heading1{
+        /* display: none; */
+        /* font-size: 2rem; */
+    }
+
+    .heading{
+        padding: 2rem;
+    }
+
+    .heading .item1{
+        /* font-size: 1.3rem; */
+    }
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box{
+        width: 100%;
+        float: none;
+        text-align: center;
+        box-shadow: 0px 0px 20px 0px #aaaaaa;
+    }
+
+    .row{
+        box-shadow: none;
+    }
+
+    .feature .box-2,
+    .feature .box-3{
+        margin-top: 2rem;
+    }
+
+    .style .logo{
+        padding-left: 15%;
+    }
+
+    .style2 p{
+        line-height: 1.6;
+    }
+
+    .cta-banner{
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    .cta-banner .cta-banner-left{
+        margin-bottom: 2rem;
+    }
+
+    .cta-banner-right{
+        
+        text-align: center;
+        float: none;
+    }
+     
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+
+    }
+
+    .form .mes{
+        width: 100%;
+        /* margin-bottom: .5rem; */
+        
+    }
+
+    /* .form{
+        height: 500px;
+    } */
+    
+}
+
+ /* ########################## media queries (601-800)####################### */
+ 
+ @media (min-width: 601px ) and (max-width: 800px ){
+    html{
+        font-size: 16px;
+    }
+
+    .navbar .nav-items{
+        display: inline-block;
+        margin-top: .5rem;
+    }
+
+
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box{
+        width: 100%;
+        float: none;
+        text-align: center;
+        box-shadow: 0px 0px 20px 0px #aaaaaa;
+    }
+
+    .row{
+        box-shadow: none;
+    }
+
+    .feature .box-2,
+    .feature .box-3{
+        margin-top: 2rem;
+    }
+
+    .style .nav-items, .style .logo{
+        float: none;
+        width: 100%;
+        display: block;
+        text-align: center;
+        /* font-size: 18px; */
+        padding: .2rem;
+    }
+
+    .style .logo{
+        padding-right: 3rem;
+    }
+    
+    .count-item p{
+        font-size: 14px;
+    
+    }
+    
+    .cta-banner{
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .cta-banner .cta-banner-left{
+        margin-bottom: 1rem;
+    }
+
+
+    .cta-banner-right{
+        /* margin-top: .3rem; */
+        text-align: center;
+        float: none;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+
+    }
+    
+    .form .mes{
+        width: 100%;
+        /* margin-bottom: .5rem; */
+        
+    }
+
+    .form-wrapper .form .tex{
+        height: 150px;
+    }
+}
+
+/* ########################## media queries (801-1200) ################### */
+
+@media (min-width: 801px) and (max-width: 1200px){
+    html{
+        font-size: 16px;
+    }
+
+    
+    .row{
+        height: auto;
+        width: 100%;
+    }
+
+    .row .img-box,
+    .row .text-box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .box{
+        width: 100%;
+        float: none;
+        text-align: center;
+        box-shadow: 0px 0px 20px 0px #aaaaaa;
+    }
+
+    .row{
+        box-shadow: none;
+    }
+
+    .feature .box-2,
+    .feature .box-3{
+        margin-top: 2rem;
+    }
+
+    
+    .cta-banner{
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .cta-banner .cta-banner-left{
+        margin-bottom: 1rem;
+        
+    }
+
+
+    .cta-banner-right{
+        /* margin-top: .3rem; */
+        /* text-align: center; */
+        float: none;
+    }
+
+    .form-wrapper .company-address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+
+    }
+    
+    .form .mes{
+        width: 100%;
+        /* margin-bottom: .5rem; */
+        
+    }
+}
